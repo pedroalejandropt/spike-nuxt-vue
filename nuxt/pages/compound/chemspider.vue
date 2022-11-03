@@ -51,8 +51,10 @@
     },
     components: {CompoundImage},
     mounted() {
-      console.log(this.$route.params.id);
-      this.id = this.$route.params.id;
+      console.log(this.$route.query.id);
+      this.id = this.$route.query?.id;
+      if (!this.id)
+        this.$router.push({name: 'compound'})
       this.getCompound();
     }
   };

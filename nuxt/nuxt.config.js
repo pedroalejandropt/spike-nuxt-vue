@@ -47,8 +47,8 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
-  router: {
-    extendRoutes(routes, resolve) {
+  //router: {
+    /* extendRoutes(routes, resolve) {
       extendedRoutes.forEach(route => {
         routes.push({
           name: route.name,
@@ -56,7 +56,18 @@ export default {
           component: resolve(__dirname, route.component),
           chunkName: route.chunkName
         })
-      });
-    },
-  }
+      }); */
+      /* routes.push({
+        name: 'compound-id',
+        path: 'compound/:id',
+        component: resolve(__dirname, 'pages/compound/_id.vue'),
+        chunkName: 'pages/compound/id',
+        props: (route) => {
+          console.log(route);
+          const id = route.params.id;
+          return { id };
+        }
+      }) */
+    //},
+  //}
 }

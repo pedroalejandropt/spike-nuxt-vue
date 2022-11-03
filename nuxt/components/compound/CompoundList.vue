@@ -33,7 +33,7 @@ export default {
     },
     methods: {
         goTo(compound) {
-            this.$router.push({ path: `compound/${compound.ChemSpiderId}` })
+            this.$router.push({ path: `compound/chemspider?id=${compound.ChemSpiderId}` })
         }
     }
 }

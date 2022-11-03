@@ -20,6 +20,7 @@ import CompoundList from '@/components/compound/CompoundList.vue'
 
 export default {
     layout: 'compound-layout',
+    name: 'compound',
     data() {
       return {
         id: null,
@@ -39,6 +40,9 @@ export default {
             
             console.log(res.data);
         },
+    },
+    mounted() {
+      console.log(this.$route.query);
     }
 }
 </script>
