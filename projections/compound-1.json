@@ -1,0 +1,20 @@
+{
+    "ChemSpiderId": 1,
+    "Categories": [
+        {
+            "Id": 100,
+            "Name": "Medicine"
+        }
+    ],
+    "Name": "Oxobutyric Acid",
+    "Synonyms": [
+        {
+            "Id": 1,
+            "Name": "Oxobutyric A"
+        },
+        {
+            "Id": 2,
+            "Name": "O Acid"
+        }
+    ]
+}

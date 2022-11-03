@@ -1,0 +1,20 @@
+{
+    "ChemSpiderId": 2,
+    "Categories": [
+        {
+            "Id": 100,
+            "Name": "Medicine"
+        }
+    ],
+    "Name": "Ketoleucine",
+    "Synonyms": [
+        {
+            "Id": 3,
+            "Name": "Ketoleucin"
+        },
+        {
+            "Id": 4,
+            "Name": "Ketoleuc"
+        }
+    ]
+}

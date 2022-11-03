@@ -1,0 +1,20 @@
+{
+    "ChemSpiderId": 3,
+    "Categories": [
+        {
+            "Id": 100,
+            "Name": "Medicine"
+        }
+    ],
+    "Name": "Protocatechuic Acid",
+    "Synonyms": [
+        {
+            "Id": 5,
+            "Name": "Protocatechuic A"
+        },
+        {
+            "Id": 6,
+            "Name": "P Acid"
+        }
+    ]
+}

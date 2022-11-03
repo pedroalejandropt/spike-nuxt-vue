@@ -1,0 +1,21 @@
+{
+    "ChemSpiderId": 4,
+    "Categories": [
+        {
+            "Id": 100,
+            "Name": "Medicine"
+        }
+    ],
+    "Name": "Cyanopyridine",
+    "Synonyms": [
+        {
+            "Id": 7,
+            "Name": "Cyanopyridin"
+        },
+        {
+            "Id": 8,
+            "Name": "Cyanopyridi"
+            
+        }
+    ]
+}

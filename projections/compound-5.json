@@ -1,0 +1,20 @@
+{
+    "ChemSpiderId": 5,
+    "Categories": [
+        {
+            "Id": 100,
+            "Name": "Medicine"
+        }
+    ],
+    "Name": "Acetoacetic Acid",
+    "Synonyms": [
+        {
+            "Id": 9,
+            "Name": "Acetoacetic A"
+        },
+        {
+            "Id": 10,
+            "Name": "A Acid"
+        }
+    ]
+}
